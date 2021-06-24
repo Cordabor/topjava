@@ -9,7 +9,7 @@ import java.time.Month;
 import java.util.Arrays;
 import java.util.List;
 
-public class UserMealsUtil {
+public class MealsUtil {
     public static void main(String[] args) {
         List<UserMeal> meals = Arrays.asList(
                 new UserMeal(LocalDateTime.of(2020, Month.JANUARY, 30, 10, 0), "Завтрак", 500),
@@ -34,6 +34,7 @@ public class UserMealsUtil {
 
     public static List<UserMealWithExcess> filteredByStreams(List<UserMeal> meals, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
         // TODO Implement by streams
+        System.out.println(" TODO Implement by streams");
         return null;
     }
 }
